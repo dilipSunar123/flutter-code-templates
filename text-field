@@ -1,0 +1,14 @@
+Padding(
+  padding: EdgeInsets.only(top: 15.0, bottom: 15.0),
+  child: TextField(
+    controller: titleController,
+    onChanged: (value) {
+      debugPrint('Something changed in Title Text Field');
+    },
+    decoration: InputDecoration(
+      labelText: 'Title',
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(5.0),
+    )),
+  ),
+),
