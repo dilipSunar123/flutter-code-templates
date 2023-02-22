@@ -1,0 +1,10 @@
+floatingActionButton: FloatingActionButton(
+  onPressed: () {
+    debugPrint("FAB clicked!");
+    navigateToDetail('Add Note');
+  },
+  tooltip: 'Add Note',
+  child: const Icon(
+    Icons.add,
+  ),
+),
